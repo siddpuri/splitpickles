@@ -1,0 +1,23 @@
+{
+    "folders": [
+        {
+            "path": "."
+        }
+    ],
+    "settings": {
+        "editor.detectIndentation": false,
+        "editor.minimap.enabled": false,
+        "editor.quickSuggestions": {
+            "other": "off",
+            "comments": "off",
+            "strings": "off"
+        },
+        "editor.acceptSuggestionOnCommitCharacter": false,
+        "editor.acceptSuggestionOnEnter": "off",
+        "files.autoSave": "afterDelay",
+        "files.exclude": {
+            "dist": true,
+        },
+        "files.insertFinalNewline": true,
+    }
+}
