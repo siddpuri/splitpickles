@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block title %}Splitpickles{% endblock %}
+
+{% block content %}
+    <h1 class="mt-5">Splitpickles</h1>
+    <p class="lead">Welcome {{ state.name }}!</p>
+    <p>Your balance is: {{ state.render_balance() }} </p>
+    <div class="row mt-4">
+        <div class="col-md-6">
+            <h2>Features</h2>
+            <ul>
+                <li>Easy bill splitting</li>
+                <li>Expense tracking</li>
+                <li>Group management</li>
+            </ul>
+        </div>
+    </div>
+{% endblock %}
